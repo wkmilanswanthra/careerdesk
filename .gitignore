@@ -1,0 +1,30 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Generated packaging output (publish executables as release assets)
+build/
+dist/
+release/
+*.exe
+*.zip
+
+# Private application data, exports, and local configuration
+*.db
+*.db-*
+*.sqlite*
+*.csv
+*.log
+.env
+.env.*
+!.env.example
+
+# Local test screenshots and editor settings
+assets/*preview.png
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
